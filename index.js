@@ -89,10 +89,10 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 
 owner = setting.owner
 gamewaktu = setting.gamewaktu
-fake = `卍𝚑𝚎𝚛𝚖𝙰𝚗 𝚋𝚘𝚝` 
-footerr = `卍𝚑𝚎𝚛𝚖𝙰𝚗 𝚋𝚘𝚝` 
+fake = `卍Kaget 𝚋𝚘𝚝` 
+footerr = `卍Kaget 𝚋𝚘𝚝` 
 bio = `Sibuk`
-yt = `Herman Chanel`
+yt = `Kagetstore_real`
 banChats = true
 
 // Database
@@ -1150,7 +1150,7 @@ sendButLocation(from, `${nono}`,
 [
 {buttonId:`${prefix}owner`,buttonText:{displayText:'卍 OWNER 卍'},type:1},
 
-{buttonId:`${prefix}sc`,buttonText:{displayText:'卍 SCRIP 卍'},type:1}
+{buttonId:`${prefix}sewabot`,buttonText:{displayText:'卍 SEWABOT卍'},type:1}
 ], 
 {sendEphemeral: true, contextInfo: { mentionedJid: [sender, tagme + "@s.whatsapp.net"]}})
 break
@@ -1667,22 +1667,26 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/f32aab47db2b80b63e779.jpg'
+              gopeynya = 'https://telegra.ph/file/6145bf2e0afea27b9a2a3.jpg'
               teksnya = `*── 「 PRICE LIST 」 ──*
 
-*Tarif Premium User adalah 10K Perbulan*
+𝐇𝐀𝐑𝐆𝐀 𝐒𝐄𝐖𝐀 𝐁𝐎𝐓
+┃⬡ 1 Minggu : 5K
+┃⬡ 1 Bulan : 10K
+┃⬡ Permanen : 15K
+┃⬡ Jadi Bot : 30k
+*Free Premium 1Bulan*
 *Keuntungan Premium Diantaranya:*
 ♲ *Bebas memakai fitur premium*
 ♲ *Dapat Informasi Lebih dulu akan Update, Nomor Bot Baru (Jika Terbanned), dan Lainnya*
 
 *Jika Tertarik,Kalian Bisa Bayar Melalui Metode Pembayaran di Bawah:*
-*Dana : 0831-462-08804*
-*Gopay : 0831-4593-2464*
+*Dana : 0857-6350-0823*
+*Gopay : 0812-7930-1794*
 *Atau Gopay pada gambar diatas*
 
 *Info Lebih Lengkap Chat Owner, Ketik ${prefix}owner*
 *_note_*:
-*Pembelian Premium yang disertai SewaBot hanya akan membayar 20K (Diskon 5K)*`
               client.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 //------------------< Sticker Cmd >-------------------
@@ -3027,13 +3031,13 @@ client.sendMessage(from, ItsMeHerman, MessageType.audio, {quoted: ftroli, mimety
               break
       case 'sc':
       case 'sourcecode':
-              textImg(`https://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg`)
+              textImg(`BELI KE OWNER GAK GRATIS JANGAN CARI GRATISAN MULU`)
 ItsMeHerman = fs.readFileSync('./Lagu Nya Kawan/herman2.mp3');
 client.sendMessage(from, ItsMeHerman, MessageType.audio, {quoted: ftroli, mimetype: 'audio/mp4', ptt:true})
               break        
       case 'donate': 
       case 'donasi':
-              textImg(`Donasi Om Buat Beli Kouta:(\nDana :083146208804\nPulsa :083146208804\nGopay :-\nSeiklas nya Om:(`)
+              textImg(`Donasi Om Buat Beli Kouta:(\nDana :085763500823\nPulsa :085763500823\nGopay :-\nSeiklas nya Om:(`)
 ItsMeHerman = fs.readFileSync('./Lagu Nya Kawan/herman3.mp3');
 client.sendMessage(from, ItsMeHerman, MessageType.audio, {quoted: ftroli, mimetype: 'audio/mp4', ptt:true})
               break
